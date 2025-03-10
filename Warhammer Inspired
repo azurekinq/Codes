@@ -1,0 +1,308 @@
+<!-- 
+↪ INFORMATION
+
+This is a Warhammer 40K inspired code.
+It's really gritty and I know I have a lot of room to improve on this.
+If you got any ideas in improving it specifically for Warhammer, please let me know!
+
+Thank you for using my code!~
+-->
+
+<div class="container-fluid">
+    
+    <!-- Header image start -->
+    <div class="card bg-transparent border-0 rounded-0">
+        <div style="height:250px; background-size:cover; background-position:top; background-image:url('https://wallpapers.com/images/featured/warhammer-e1dpbba47ubbh6o0.jpg');"></div>
+    </div>
+    <!-- Header image end-->
+    
+    
+    <!-- Information Part 1 -->
+    <div class="card p-3 border-0 bg-faded rounded-0">
+        <div class="row no-gutters align-items-center">
+            
+            <!-- Info start -->
+            <div class="col-sm-3">
+                <p class="justify-content-between">
+                    <span class="font-weight-bold font-italic">Name</span>
+                    <span class="text-muted">content</span>
+                </p>
+                <hr>
+                
+                <p class="justify-content-between">
+                    <span class="font-weight-bold font-italic">Age</span>
+                    <span class="text-muted">content</span>
+                </p>
+                <hr>
+                
+                <p class="justify-content-between">
+                    <span class="font-weight-bold font-italic">Birthday</span>
+                    <span class="text-muted">content</span>
+                </p>
+                <hr>
+                
+                <p class="justify-content-between">
+                    <span class="font-weight-bold font-italic">Gender</span>
+                    <span class="text-muted">content</span>
+                </p>
+                <hr>
+                
+                <p class="justify-content-between">
+                    <span class="font-weight-bold font-italic">Race/Species</span>
+                    <span class="text-muted">content</span>
+                </p>
+                <hr>
+                
+                <p class="justify-content-between">
+                    <span class="font-weight-bold font-italic">Faction</span>
+                    <span class="text-muted">content</span>
+                </p>
+                <hr>
+                
+                <p class="justify-content-between">
+                    <span class="font-weight-bold font-italic">Legion (if any)</span>
+                    <span class="text-muted">content</span>
+                </p>
+                <hr>
+                
+                <p class="justify-content-between">
+                    <span class="font-weight-bold font-italic">Weapon(s)</span>
+                    <span class="text-muted">content</span>
+                </p>
+            </div>
+            <!-- Info end -->
+            
+            
+            <!-- Icon -->
+            <div class="col-sm-4">
+                <img class="d-block mx-auto" style="width:300px;" src="https://f2.toyhou.se/file/f2-toyhou-se/images/96885020_1EW8HUoohw9PBub.png">
+            </div>
+            <!-- Icon end -->
+            
+            
+            <!-- Profile start -->
+            <div class="col-sm-5">
+                
+                <!-- Bootstrap header start | Credits to aurorean!! -->
+                <div class="card border-top-0 border-right-0 border-bottom-0 rounded-0 p-3 my-2" style="border-width:.23rem; border-style:solid;">
+                    <h1 class="display-3 text-muted mb-0" style="letter-spacing:.09rem;"><i class="fas fa-sharp fa-swords"></i> Profile </h1>
+                </div>
+                <!-- Bootstrap header end -->
+                
+                <div class="card border-top-0 border-bottom-0 border-right-0 rounded-0 p-2" style="height:300px; overflow:auto; border-width:.23rem; border-style:solid">
+                    <p class="text-muted">
+                        Write the character's profile here. This is like a "summary" of sorts about their life. The box will scroll so if they have an extensive profile summary, you can go wild! Remember to use the "p" tag for separate paragraphs.
+                    </p>
+                </div>
+                
+            </div>
+            <!-- Profile end -->
+        </div>
+    </div>
+    
+    
+    <!-- Information Part 2 -->
+    <div class="card p-3 mt-3 border-0 bg-faded rounded-0">
+        
+        <!-- Bootstrap header start | Credits to aurorean!! -->
+            <div class="card border-top-0 border-right-0 border-bottom-0 rounded-0 p-3 my-2" style="border-width:.23rem; border-style:solid;">
+                <h1 class="display-3 text-muted mb-0" style="letter-spacing:.09rem;"><i class="fas fa-map"></i> Navigation </h1>
+                
+                <ul class="nav nav-pills nav-fill mt-3">
+                    <li class="nav-item mr-1">
+                        <a class="nav-link active btn btn-secondary" data-toggle="pill" href="#PERSONALITY" style="border-radius:0;">Personality</a>
+                    </li>
+                    <li class="nav-item mr-1">
+                        <a class="nav-link btn btn-secondary" data-toggle="pill" href="#TRIVIA" style="border-radius:0;">Trivia</a>
+                    </li>
+                    <li class="nav-item mr-1">
+                        <a class="nav-link btn btn-secondary" data-toggle="pill" href="#STORY" style="border-radius:0;">Backstory</a>
+                    </li>
+                </ul>
+            </div>
+        <!-- Bootstrap header end -->
+        
+        
+        <!-- Tabs -->
+        <div class="card rounded-0 border-top-0 border-bottom-0 border-right-0" style="height:450px; overflow:auto; border-width:.23rem; border-style:solid">
+            <div class="tab-content">
+                
+                <div class="tab-pane fade show active p-3" id="PERSONALITY">
+                    <div class="card border-0 bg-transparent">
+                        
+                        <h1 class="card bg-transparent border-left-0 border-right-0 border-top-0 rounded-0 px-1 pb-1 my-3 text-uppercase"
+                            style="letter-spacing:.09rem; border-width:.23rem; border-style:dotted;">
+                                    
+                            TRAIT, TRAIT, TRAIT
+                        </h1>
+                                
+                        <p class="text-muted">
+                            Explain how these traits flow together.
+                        </p>
+                        
+                        <h1 class="card bg-transparent border-left-0 border-right-0 border-top-0 rounded-0 px-1 pb-1 my-3 text-uppercase"
+                            style="letter-spacing:.09rem; border-width:.23rem; border-style:dotted;">
+                                    
+                            TRAIT, TRAIT, TRAIT
+                        </h1>
+                                
+                        <p class="text-muted">
+                            Explain how these traits flow together.
+                        </p>
+                        
+                        <!-- Add more above this line -->
+                        <div class="card bg-transparent border-left-0 border-right-0 border-top-0 rounded-0 px-1 pb-1 my-3" style="border-width:0.75em; border-style:double"></div>
+                        
+                        <h1 class="card bg-transparent border-left-0 border-right-0 border-top-0 rounded-0 px-1 pb-1 my-3 text-uppercase"
+                            style="letter-spacing:.09rem; border-width:.23rem; border-style:dotted;">
+                                    
+                            Personality (altogether)
+                        </h1>
+                                
+                        <p class="text-muted">
+                            You can put the entire personality here or you can delete this section if you don't want to. Entirely up to the character owner~
+                        </p>
+                    </div>
+                </div>
+                
+                
+                
+                <div class="tab-pane fade p-3" id="TRIVIA">
+                    
+                    <!-- Bootstrap header start | Credits to aurorean!! -->
+                    <div class="card border-top-0 border-right-0 border-bottom-0 rounded-0 p-3 my-2" style="border-width:.23rem; border-style:solid;">
+                        <h1 class="display-3 text-muted mb-0" style="letter-spacing:.09rem;"><i class="fal fa-info-circle"></i> Trivia </h1>
+                    </div>
+                    <!-- Bootstrap header end -->
+                    
+                    <!-- Trivia boxes start -->
+                    <div class="row align-content-center">
+                        
+                        <!-- Likes start -->
+                        <div class="col-lg-4 px-2 pt-2 pb-0">
+                            <div class="card border-0 bg-faded p-3">
+                                <h1>
+                                    <i class="fas fa-check"></i> Likes
+                                </h1>
+                                <ul class="mb-0 pl-4 text-muted" style="list-style-type:square;">
+                                    <li class="mt-2">Unknown</li>
+                                    <li class="mt-2">Unknown</li>
+                                    <li class="mt-2">Unknown</li>
+                                    <li class="mt-2">Unknown</li>
+                                    <li class="mt-2">Unknown</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Likes end-->
+                        
+                        <!-- Dislikes start -->
+                        <div class="col-lg-4 px-2 pt-2 pb-0">
+                            <div class="card border-0 bg-faded p-3">
+                                <h1>
+                                    <i class="fas fa-x"></i> Dislikes
+                                </h1>
+                                <ul class="mb-0 pl-4 text-muted" style="list-style-type:square;">
+                                    <li class="mt-2">Unknown</li>
+                                    <li class="mt-2">Unknown</li>
+                                    <li class="mt-2">Unknown</li>
+                                    <li class="mt-2">Unknown</li>
+                                    <li class="mt-2">Unknown</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Dislikes end-->
+                        
+                        <!-- Hobbies start -->
+                        <div class="col-lg-4 px-2 pt-2 pb-0">
+                            <div class="card border-0 bg-faded p-3">
+                                <h1>
+                                    <i class="fas fa-sparkle"></i> Hobbies
+                                </h1>
+                                <ul class="mb-0 pl-4 text-muted" style="list-style-type:square;">
+                                    <li class="mt-2">Unknown</li>
+                                    <li class="mt-2">Unknown</li>
+                                    <li class="mt-2">Unknown</li>
+                                    <li class="mt-2">Unknown</li>
+                                    <li class="mt-2">Unknown</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Hobbies end-->
+                        
+                        <!-- Facts start -->
+                        <div class="col-lg-6 px-2 pt-2 pb-0">
+                            <div class="card border-0 bg-faded p-3">
+                                <h1>
+                                    <i class="fas fa-seedling"></i> Interesting facts
+                                </h1>
+                                <ul class="mb-0 pl-4 text-muted" style="list-style-type:square;">
+                                    <li class="mt-2">Unknown</li>
+                                    <li class="mt-2">Unknown</li>
+                                    <li class="mt-2">Unknown</li>
+                                    <li class="mt-2">Unknown</li>
+                                    <li class="mt-2">Unknown</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Facts end-->
+                        
+                        <!-- Facts start -->
+                        <div class="col-lg-6 px-2 pt-2 pb-0">
+                            <div class="card border-0 bg-faded p-3">
+                                <h1>
+                                    <i class="fas fa-user"></i> Disabilities / Disorders
+                                </h1>
+                                <ul class="mb-0 pl-4 text-muted" style="list-style-type:square;">
+                                    <li class="mt-2">Unknown</li>
+                                    <li class="mt-2">Unknown</li>
+                                    <li class="mt-2">Unknown</li>
+                                    <li class="mt-2">Unknown</li>
+                                    <li class="mt-2">Unknown</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Facts end-->
+                        
+                    </div>
+                    <!-- Trivia boxes end -->
+                </div>
+                
+                
+                
+                <div class="tab-pane fade p-3" id="STORY">
+                    
+                    <h1 class="card bg-transparent border-left-0 border-right-0 border-top-0 rounded-0 px-1 pb-1 my-3 text-uppercase"
+                        style="letter-spacing:.09rem; border-width:.23rem; border-style:solid;">
+                                    
+                        Part 1
+                    </h1>
+                                
+                    <p class="text-muted">
+                        You can do paragraphs if you want to.
+                    </p>
+                    <ul class="text-muted">
+                        <li>
+                            Or lists if it's easier. I, personally, like lists.
+                        </li>
+                        <li>
+                            But hey, you do you! All that matters in the end is that you have fun with the character.
+                        </li>
+                    </ul>
+                    
+                    
+                    <div class="card bg-transparent border-left-0 border-right-0 border-top-0 rounded-0 px-1 pb-1 my-3" style="border-width:0.75em; border-style:double"></div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- Tabs end -->
+        
+    </div>
+</div>
+
+<!-- Please don't remove the credit! Thank you. -->
+<p class="text-center mt-2">
+    <a href="https://toyhou.se/azurekinq">
+        <i class="fas fa-crown"></i> Code by azurekinq
+    </a>
+</p>
