@@ -12,7 +12,7 @@ Thank you for using my code!~
     
     <!-- Header image start -->
     <div class="card bg-transparent border-0 rounded-0">
-        <div style="height:250px; background-size:cover; background-position:top; background-image:url('https://wallpapers.com/images/featured/warhammer-e1dpbba47ubbh6o0.jpg');"></div>
+        <div style="height:250px; background-size:cover; background-position:top; background-image:url('#');"></div> <!-- Replace "#" with an image link -->
     </div>
     <!-- Header image end-->
     
@@ -75,7 +75,7 @@ Thank you for using my code!~
             
             <!-- Icon -->
             <div class="col-sm-4">
-                <img class="d-block mx-auto" style="width:300px;" src="https://f2.toyhou.se/file/f2-toyhou-se/images/96885020_1EW8HUoohw9PBub.png">
+                <img class="d-block mx-auto" style="width:300px;" src="#"> <!-- Replace "#" with an image link -->
             </div>
             <!-- Icon end -->
             
